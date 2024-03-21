@@ -15,5 +15,16 @@ package frc.robot;
 public final class Constants {
   public static class OperatorConstants {
     public static final int kDriverControllerPort = 0;
+    public static final int kOperatorControllerPort = 1;
+
+    // CAN bus IDs
+    public static final int kLeftLeaderCANid = 14;
+    public static final int kLeftFollowerCANid = 10;
+    public static final int kRightLeaderCANid = 13;
+    public static final int kRightFollowerCANid = 12;
+    public static final int kElevatorMotorCANid = 15;
+    public static final int kClimbMotorCANid = 16;
+    public static final int kTopShooterMotorCANid = 18;
+    public static final int kBottomShooterMotorCANid = 19;
   }
 }
